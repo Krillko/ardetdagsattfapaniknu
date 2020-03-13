@@ -1,14 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv-SE">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160601981-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-160601981-1');
+  </script>
+
+
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
   <script src="DrawSVGPlugin.min.js"></script>
-  <link rel="canonical" href="http://ÄrDetDagsAttFåPanik.nu">
+  <link rel="canonical" href="http://ärDetDagsAttFåPanik.nu">
   <title>Är det dags att få panik nu?</title>
+
+  <meta property="og:title" content="Är det dags att få panik nu?">
+  <meta property="og:description" content="Med allt som pågår i samhället kan det vara bra att veta; Är det dags att få panik nu?">
+  <meta property="og:image" content="/thumbnail.png">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="1080">
+  <meta property="og:url" content="http://ärDetDagsAttFåPanik.nu">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
   <style type="text/css">
 
   body {
@@ -43,7 +71,6 @@
     }
   };
   function initApplication () {
-      console.log('init');
     var timeline = gsap.timeline({
       delay: 1,
     });
@@ -78,10 +105,10 @@
 <div class="wrapper">
   <div class="center">
     <p><?php echo date('Y-m-d'); ?></p>
-  <p>Med allt som pågår i sammhället kan det vara bra att veta;</p>
+  <p>Med allt som pågår i samhället kan det vara bra att veta;</p>
   <h1>Är det dags att få panik nu?</h1>
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-         viewBox="0 0 78.5 66.5" enable-background="new 0 0 78.5 66.5" xml:space="preserve">
+         viewBox="0 0 78.5 66.5" enable-background="new 0 0 78.5 66.5" xml:space="preserve" alt="Panikindikator laddas">
       <defs>
           <filter id="glow">
             <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
@@ -96,7 +123,7 @@
         <path id="letterA" fill="none" stroke="#DB0F15" filter="url(#glow)" d="M49.6,3.4H54l20.2,43.7H63.7L60.4,39H43.2l-3.3,8.1H29.4L49.6,3.4 M51.8,18.1l-5.4,13.3h10.9L51.8,18.1"/>
       </g>
       <g>
-        <text id="loadText" transform="matrix(1 0 0 1 15.2682 34.4914)" fill="#A5A4A4" font-family="'Sen-Regular'" font-size="8.0084px">Laddar resultat</text>
+        <text id="loadText" transform="matrix(1 0 0 1 15.2682 34.4914)" fill="#A5A4A4" font-family="'Sen'" font-size="8.0084px">Laddar resultat</text>
         <circle id="loadCircle" fill="#FFFFFF" cx="9.9" cy="33.2" r="3.7"/>
       </g>
     </svg>
