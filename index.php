@@ -77,7 +77,7 @@
 <body>
 <div class="wrapper">
   <div class="center">
-    <p>2020-03-13</p>
+    <p><?php echo date('Y-m-d'); ?></p>
   <p>Med allt som pågår i sammhället kan det vara bra att veta;</p>
   <h1>Är det dags att få panik nu?</h1>
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
