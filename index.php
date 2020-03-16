@@ -24,9 +24,10 @@
 
   <meta property="og:title" content="Är det dags att få panik nu?">
   <meta property="og:description" content="Med allt som pågår i samhället kan det vara bra att veta; Är det dags att få panik nu?">
+  <meta name="description" content="Med allt som pågår i samhället kan det vara bra att veta; Är det dags att få panik nu?">
   <meta property="og:image" content="/thumbnail.png">
-  <meta property="og:image:width" content="1080">
-  <meta property="og:image:height" content="1080">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:url" content="http://ärDetDagsAttFåPanik.nu">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -81,10 +82,10 @@
         scale: 0.5
       },
       {
-        duration: 1,
+        duration: 0.8,
         opacity: 0.5,
         scale: 1,
-        repeat: 4,
+        repeat: 3,
         ease: "power2.inOut",
         transformOrigin:"50% 50%"
       });
@@ -104,7 +105,7 @@
 <body>
 <div class="wrapper">
   <div class="center">
-    <p><?php echo date('Y-m-d'); ?></p>
+    <p><?php echo date('Y-m-d'); ?> • Uppdateras dagligen</p>
   <p>Med allt som pågår i samhället kan det vara bra att veta;</p>
   <h1>Är det dags att få panik nu?</h1>
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
